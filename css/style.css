@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Rubik+Distressed&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik Distressed', cursive;
+*/
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navBar {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+
+}
+.navBar li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navBar li a:hover {
+    color: red;
+    font-size: 18px;
+}
+
+main {
+    background-color: lightgray;
+    height: 500px;
+    display: flex;
+    /*
+    flex-direction: row;
+    flex-wrap: wrap;*/
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+    /*column-gap: 20px;
+    row-gap: 20px;*/
+    gap: 30px 10px;
+}
+.cajita {
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    justify-content: center;
+    align-content: center;
+}
+
+.item1 {
+    background-color: lightblue;
+}
+.item2 {
+    background-color: yellow;
+}
+.item3 {
+    background-color: lightblue;
+    align-self: flex-start;
+}
+.item4 {
+    background-color: lightblue;
+}
+.item5 {
+    background-color: yellow;
+    align-self: flex-end;
+}
+.item6 {
+    background-color: lightblue;
+}
+.item7 {
+    background-color: lightblue;  
+}
+
+
+/*
+.sectionOne p {
+    background-color: lightblue;
+}
+.sectionOne p:first-child {
+    background-color: blue;
+}
+.sectionOne p:nth-child(3) {
+    background-color: violet;
+}
+.sectionOne p:last-child {
+    background-color: pink;
+}
+.sectionTwo p::first-letter {
+    background-color: beige;
+    color: blue;
+    font-size: 40px;
+}
+*/
+
